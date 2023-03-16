@@ -1,0 +1,11 @@
+.app {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media screen and (max-width:480px) {
+    .app {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

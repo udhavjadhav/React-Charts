@@ -1,0 +1,20 @@
+.line{
+    border: 1px solid gray;
+    padding: 20px;
+    height: 400px;
+    margin: 10px;
+}
+@media screen and (min-width:480px) and (max-width:768px) {
+    .line {
+        max-width: 90%;
+        height: 220px;
+        padding:5px;
+    }
+}
+@media screen and (max-width:480px) {
+    .line {
+        max-width: 90%;
+        height: 250px;
+        padding:5px;
+    }
+}
