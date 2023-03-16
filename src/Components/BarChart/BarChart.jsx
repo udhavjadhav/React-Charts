@@ -35,6 +35,7 @@ const BarChart = () => {
 
   return (
     <div className='bar'>
+      {/* <h1>Hello Udhav</h1> */}
       <Bar data={data} options={options} />
     </div>
   )
